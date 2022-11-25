@@ -1,0 +1,6 @@
+flag = cvpbPGS{c33xno00_1_f33_h_qrnqorrs}
+
+picoCTF{                         }
+
+"c" in ASCII value is 99 while "p" has value 112. So rot13 is used in this case. So put the flag into rot13 decoder tp get the flag.
+
