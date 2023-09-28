@@ -1,0 +1,24 @@
+wget the wireshark file
+
+then opened it and checked "Statistics > Capture_File_Properties" just to get an idea of what are we dealing with as well as "Protocol Hierarchy" which is also below Statistics
+
+typed: "udp.stream == 0" in the filter bar. Got a package!
+
+File > Export_Objects > TFTP
+
+Saved everything
+
+Got text 2 files, 3 pictures and a deb file for steghide
+
+Used: https://cyberchef.org/ to check crypted text files 
+
+Seems like Rot13 gives some tips. The word "DUEDILIGENCE" 
+
+Finally tried to extract 3 of the pictures with steghide
+
+>> steghide extract -sf picture3.bmp -p DUEDILIGENCE
+
+wrote extracted data to "flag.txt"
+
+
+
