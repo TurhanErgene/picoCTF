@@ -6,6 +6,8 @@ Binwalk is a tool for searching a given binary image for embedded files and exec
 
 
 ###### 7z - 7zip #####    7z x "File name"
+7z x Forensics_is_fun.pptm
 
-7z x Forensics\ is\ fun.pptm
 
+##### steghide ######
+steghide extract -sf picture3.bmp -p DUEDILIGENCE
